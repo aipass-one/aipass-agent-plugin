@@ -67,7 +67,7 @@ Automatic use is enabled by default for imported Lovable workspace skills.
 - Setup authorization is project-scoped and cannot spend wallet funds.
 - Existing hosting, authentication, subscriptions, credits, and provider routes are preserved unless the user explicitly asks to change them.
 
-See the [AI Pass privacy policy](https://aipass.one/privacy-policy) and [terms](https://aipass.one/terms-and-conditions).
+See the [AI Pass privacy policy](https://aipass.one/privacy-policy) and [terms](https://aipass.one/terms-of-service).
 
 ## Updating
 
