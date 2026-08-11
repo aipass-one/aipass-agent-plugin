@@ -2,20 +2,24 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aipass",
   "description": "Add user-funded, multi-model AI to apps without exposing provider keys or making the developer pay every user's inference bill. Includes BYOK-safe integration guidance for the AI Pass SDK, OAuth, and OpenAI-compatible API.",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": {
     "name": "AI Pass",
-    "email": "info@aipass.one"
+    "email": "info@aipass.one",
+    "url": "https://aipass.one"
   },
   "homepage": "https://aipass.one",
   "repository": "https://github.com/aipass-one/aipass-agent-plugin",
   "license": "MIT",
   "keywords": [
-    "ai",
     "aipass",
+    "ai pass",
     "byok",
-    "oauth",
+    "ai oauth",
     "openai-compatible",
-    "user-funded-ai"
+    "user-funded ai",
+    "multi-model ai",
+    "provider keys",
+    "pay-per-use ai"
   ]
 }

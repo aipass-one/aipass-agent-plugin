@@ -52,6 +52,16 @@ gemini extensions install https://github.com/aipass-one/aipass-agent-plugin
 The repository carries the `gemini-cli-extension` topic so Gemini's public extension gallery can
 discover it during its scheduled crawl.
 
+### Kiro
+
+Open the **Powers** panel, choose **Add Custom Power → Import from GitHub**, and enter:
+
+```text
+https://github.com/aipass-one/aipass-agent-plugin
+```
+
+This is a skills-only Power. It installs no MCP server, executable hook, or binary.
+
 ### Codex, GitHub Copilot, OpenCode, Windsurf, Roo, Continue, and Devin
 
 Install the canonical Agent Skill package through the cross-agent installer:
@@ -89,12 +99,13 @@ Automatic use is enabled by default for imported Lovable workspace skills.
 - Setup authorization is project-scoped and cannot spend wallet funds.
 - Existing hosting, authentication, subscriptions, credits, and provider routes are preserved unless the user explicitly asks to change them.
 
-See the [AI Pass privacy policy](https://aipass.one/privacy-policy) and [terms](https://aipass.one/terms-of-service).
-
 ## Updating
 
 This repository contains a reviewable snapshot of the current official AI Pass integration skill. Marketplace releases are versioned and submitted through each platform's required review or re-index process. The maintained web copy is available at <https://aipass.one/skills/aipass-integration/SKILL.md>.
 
-## Support
+## License, privacy, and support
 
-Email [info@aipass.one](mailto:info@aipass.one) or open an issue in this repository.
+- License: [MIT](LICENSE)
+- Privacy: [AI Pass privacy policy](https://aipass.one/privacy-policy)
+- Service terms: [AI Pass terms of service](https://aipass.one/terms-of-service)
+- Support: email [info@aipass.one](mailto:info@aipass.one) or [open an issue](https://github.com/aipass-one/aipass-agent-plugin/issues)

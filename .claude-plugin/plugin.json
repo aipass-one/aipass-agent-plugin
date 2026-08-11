@@ -1,7 +1,7 @@
 {
   "name": "aipass",
   "description": "Add user-funded, multi-model AI to apps without exposing provider keys or making the developer pay every user's inference bill. Includes BYOK-safe integration guidance for the AI Pass SDK, OAuth, and OpenAI-compatible API.",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": {
     "name": "AI Pass",
     "email": "info@aipass.one"
