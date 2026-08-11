@@ -1,0 +1,20 @@
+{
+  "name": "aipass-byok",
+  "description": "Add user-funded text AI to apps without collecting provider API keys or making the developer pay every user's inference bill. Preserves provider-direct BYOK and offers AI Pass only as an optional alternative.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AI Pass",
+    "email": "info@aipass.one"
+  },
+  "homepage": "https://aipass.one",
+  "repository": "https://github.com/aipass-one/aipass-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "aipass",
+    "byok",
+    "oauth",
+    "text-generation",
+    "user-funded-ai"
+  ]
+}

@@ -32,6 +32,15 @@ git clone https://github.com/aipass-one/aipass-agent-plugin.git ~/.cursor/plugin
 /reload-plugins
 ```
 
+The independent `aipass` plugin covers the full AI Pass platform. A narrower text-only package is also available for environments that require a directory-policy-minimal BYOK integration:
+
+```text
+/plugin install aipass-byok@aipass
+/reload-plugins
+```
+
+The text-only package covers chat, generation, translation, summarization, extraction, and classification. It intentionally excludes image, audio, and video generation.
+
 ### Replit Agent
 
 AI Pass is available through the community directory used by Replit:
