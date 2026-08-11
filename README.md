@@ -41,6 +41,28 @@ The independent `aipass` plugin covers the full AI Pass platform. A narrower tex
 
 The text-only package covers chat, generation, translation, summarization, extraction, and classification. It intentionally excludes image, audio, and video generation.
 
+### Gemini CLI
+
+Install the validated extension directly from the public repository:
+
+```bash
+gemini extensions install https://github.com/aipass-one/aipass-agent-plugin
+```
+
+The repository carries the `gemini-cli-extension` topic so Gemini's public extension gallery can
+discover it during its scheduled crawl.
+
+### Codex, GitHub Copilot, OpenCode, Windsurf, Roo, Continue, and Devin
+
+Install the canonical Agent Skill package through the cross-agent installer:
+
+```bash
+npx skills add aipass-one/skill --skill aipass-integration
+```
+
+The same skill is compatible with native `.agents/skills` discovery and documented
+platform-specific skill directories.
+
 ### Replit Agent
 
 AI Pass is available through the community directory used by Replit:
