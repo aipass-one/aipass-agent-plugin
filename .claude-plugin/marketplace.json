@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "aipass",
+  "description": "Official AI Pass plugins for user-funded, multi-model AI integration.",
+  "owner": {
+    "name": "AI Pass",
+    "email": "info@aipass.one"
+  },
+  "plugins": [
+    {
+      "name": "aipass",
+      "source": "./",
+      "description": "Add user-funded AI, offer AI Pass alongside BYOK, and avoid provider-key custody or developer-funded inference.",
+      "category": "development",
+      "homepage": "https://aipass.one"
+    }
+  ]
+}

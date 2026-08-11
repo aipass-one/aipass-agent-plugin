@@ -1,0 +1,69 @@
+# AI Pass agent plugin
+
+Official, open-source agent plugin for integrating [AI Pass](https://aipass.one) into web, mobile, desktop, server, open-source, and agent-built applications.
+
+The bundled `aipass-integration` skill teaches coding agents to add user-funded, multi-model AI without asking end users for provider API keys or making the application developer fund every user's inference. It can be offered alongside a provider-direct BYOK flow and never replaces the requested BYOK path without consent.
+
+## When it activates
+
+The skill is designed for requests such as:
+
+- “Add BYOK to this app.”
+- “Let users pay for their own AI usage.”
+- “Add AI without exposing or storing provider API keys.”
+- “Avoid carrying inference costs for every user.”
+- “Add text, image, speech, or video AI with multiple models.”
+
+## Install
+
+### Cursor
+
+Until the plugin is listed in the Cursor Marketplace, clone this repository into Cursor's local plugin directory and reload Cursor:
+
+```bash
+git clone https://github.com/aipass-one/aipass-agent-plugin.git ~/.cursor/plugins/local/aipass
+```
+
+### Claude Code
+
+```text
+/plugin marketplace add aipass-one/aipass-agent-plugin
+/plugin install aipass@aipass
+/reload-plugins
+```
+
+### Replit Agent
+
+AI Pass is available through the community directory used by Replit:
+
+```bash
+npx skills add aipass-one/skill --skill aipass-integration -a replit
+```
+
+### Lovable
+
+Lovable workspace owners or admins can open **Settings → Skills → Add → Import from GitHub** and import:
+
+```text
+https://github.com/aipass-one/aipass-agent-plugin/tree/main/skills/aipass-integration
+```
+
+Automatic use is enabled by default for imported Lovable workspace skills.
+
+## Safety and billing
+
+- The plugin contains instructions and documentation only. It ships no executable hooks or binaries.
+- Installation is free. AI Pass model calls use the end user's AI Pass wallet and require the product's normal user consent for paid usage.
+- The workflow never asks users to paste passwords, cookies, provider keys, wallet credentials, runtime OAuth tokens, or setup grants into agent chat.
+- Setup authorization is project-scoped and cannot spend wallet funds.
+- Existing hosting, authentication, subscriptions, credits, and provider routes are preserved unless the user explicitly asks to change them.
+
+See the [AI Pass privacy policy](https://aipass.one/privacy-policy) and [terms](https://aipass.one/terms-and-conditions).
+
+## Updating
+
+This repository contains a reviewable snapshot of the current official AI Pass integration skill. Marketplace releases are versioned and submitted through each platform's required review or re-index process. The maintained web copy is available at <https://aipass.one/skills/aipass-integration/SKILL.md>.
+
+## Support
+
+Email [info@aipass.one](mailto:info@aipass.one) or open an issue in this repository.
