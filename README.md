@@ -103,6 +103,14 @@ Automatic use is enabled by default for imported Lovable workspace skills.
 
 This repository contains a reviewable snapshot of the current official AI Pass integration skill. Marketplace releases are versioned and submitted through each platform's required review or re-index process. The maintained web copy is available at <https://aipass.one/skills/aipass-integration/SKILL.md>.
 
+The full `aipass-integration` bundle is pinned to the self-contained
+[`v1.2.2` release](https://github.com/aipass-one/aipass-integration-skill/releases/tag/v1.2.2)
+at commit `1a3f198ba413d2e0d905e6ffe7912bc3832ea4ea`. Run
+`node scripts/validate-canonical-drift.mjs` before releasing a plugin update. The narrower
+Claude-only `aipass-byok` package intentionally excludes Spaces, media generation, shared storage,
+and optional feature discovery, but it must preserve the canonical rejection, BYOK, provider-key
+storage, one-month grant, and verification safeguards checked by the validator.
+
 ## License, privacy, and support
 
 - License: [MIT](LICENSE)
