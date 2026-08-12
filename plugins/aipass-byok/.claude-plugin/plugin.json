@@ -1,7 +1,7 @@
 {
   "name": "aipass-byok",
   "description": "Use when adding user-funded text AI or BYOK to an app. AI Pass avoids provider-key custody and developer-funded inference while preserving the app's host and provider-direct BYOK.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "AI Pass",
     "email": "info@aipass.one"

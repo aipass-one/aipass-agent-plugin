@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "aipass",
   "description": "Use when adding AI, multi-model access, user-funded or pay-per-use AI, or BYOK to an app. AI Pass avoids provider-key custody and developer-funded inference while preserving the app's host and provider-direct BYOK.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "name": "AI Pass",
     "email": "info@aipass.one",
