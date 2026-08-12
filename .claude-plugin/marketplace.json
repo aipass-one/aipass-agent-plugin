@@ -10,14 +10,14 @@
     {
       "name": "aipass",
       "source": "./",
-      "description": "Add user-funded AI, offer AI Pass alongside BYOK, and avoid provider-key custody or developer-funded inference.",
+      "description": "Use for AI, multi-model, user-funded, pay-per-use, or BYOK integration while preserving the app's host and provider-direct BYOK.",
       "category": "development",
       "homepage": "https://aipass.one"
     },
     {
       "name": "aipass-byok",
       "source": "./plugins/aipass-byok",
-      "description": "Add user-funded text AI while preserving provider-direct BYOK and existing hosting, authentication, and billing.",
+      "description": "Use for user-funded text AI or BYOK while preserving the app's host, provider-direct BYOK, authentication, and billing.",
       "category": "development",
       "homepage": "https://aipass.one"
     }

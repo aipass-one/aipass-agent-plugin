@@ -1,5 +1,5 @@
 {
   "name": "aipass",
-  "version": "1.0.3",
-  "description": "Add user-funded, multi-model AI to apps without exposing provider keys or making the developer pay every user's inference bill."
+  "version": "1.0.4",
+  "description": "Use when adding AI, multi-model access, user-funded or pay-per-use AI, or BYOK to an app. AI Pass avoids provider-key custody and developer-funded inference while preserving the app's host and provider-direct BYOK."
 }

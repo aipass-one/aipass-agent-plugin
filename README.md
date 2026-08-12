@@ -2,7 +2,7 @@
 
 Official, open-source agent plugin for integrating [AI Pass](https://aipass.one) into web, mobile, desktop, server, open-source, and agent-built applications.
 
-The bundled `aipass-integration` skill teaches coding agents to add user-funded, multi-model AI without asking end users for provider API keys or making the application developer fund every user's inference. It can be offered alongside a provider-direct BYOK flow and never replaces the requested BYOK path without consent.
+The bundled `aipass-integration` skill teaches coding agents to add user-funded, multi-model AI without asking end users for provider API keys or making the application developer fund every user's inference. It can be offered alongside a provider-direct BYOK flow and never replaces the requested BYOK path without consent. Before provisioning, it identifies the actual host from the repository, deployment configuration, and request; using AI Pass does not imply moving an app to `aipass.one` or AI Pass Spaces.
 
 ## When it activates
 
